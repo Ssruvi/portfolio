@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T00:00:00Z",
+  "title": "Design System: Ssruvi Rupani",
+  "extensions": {
+    "colorMeta": {
+      "black": { "role": "neutral", "displayName": "True Black", "canonical": "#000", "tonalRamp": ["oklch(15% 0 0)", "oklch(26% 0 0)", "oklch(37% 0 0)", "oklch(49% 0 0)", "oklch(60% 0 0)", "oklch(72% 0 0)", "oklch(83% 0 0)", "oklch(95% 0 0)"] },
+      "panel": { "role": "neutral", "displayName": "Plum Night", "canonical": "#120c11", "tonalRamp": ["oklch(15% 0.015 340)", "oklch(26% 0.015 340)", "oklch(37% 0.015 340)", "oklch(49% 0.015 340)", "oklch(60% 0.015 340)", "oklch(72% 0.015 340)", "oklch(83% 0.015 340)", "oklch(95% 0.015 340)"] },
+      "panel-2": { "role": "neutral", "displayName": "Plum Night Raised", "canonical": "#1a1218", "tonalRamp": ["oklch(15% 0.018 340)", "oklch(26% 0.018 340)", "oklch(37% 0.018 340)", "oklch(49% 0.018 340)", "oklch(60% 0.018 340)", "oklch(72% 0.018 340)", "oklch(83% 0.018 340)", "oklch(95% 0.018 340)"] },
+      "ink": { "role": "neutral", "displayName": "Bone Ink", "canonical": "#f3eef2", "tonalRamp": ["oklch(15% 0.008 330)", "oklch(26% 0.008 330)", "oklch(37% 0.008 330)", "oklch(49% 0.008 330)", "oklch(60% 0.008 330)", "oklch(72% 0.008 330)", "oklch(83% 0.008 330)", "oklch(95% 0.008 330)"] },
+      "ink-2": { "role": "neutral", "displayName": "Mauve Grey", "canonical": "#b3a9b1", "tonalRamp": ["oklch(15% 0.015 330)", "oklch(26% 0.015 330)", "oklch(37% 0.015 330)", "oklch(49% 0.015 330)", "oklch(60% 0.015 330)", "oklch(72% 0.015 330)", "oklch(83% 0.015 330)", "oklch(95% 0.015 330)"] },
+      "ink-3": { "role": "neutral", "displayName": "Dim Mauve", "canonical": "#8a8089", "tonalRamp": ["oklch(15% 0.015 330)", "oklch(26% 0.015 330)", "oklch(37% 0.015 330)", "oklch(49% 0.015 330)", "oklch(60% 0.015 330)", "oklch(72% 0.015 330)", "oklch(83% 0.015 330)", "oklch(95% 0.015 330)"] },
+      "rule": { "role": "neutral", "displayName": "Hairline", "canonical": "rgb(243 238 242 / 0.12)" },
+      "rule-strong": { "role": "neutral", "displayName": "Strong Hairline", "canonical": "rgb(243 238 242 / 0.26)" },
+      "plum": { "role": "primary", "displayName": "Shirt Plum", "canonical": "#8a3d63", "tonalRamp": ["oklch(15% 0.06 350)", "oklch(26% 0.08 350)", "oklch(37% 0.1 350)", "oklch(46% 0.11 350)", "oklch(58% 0.11 350)", "oklch(70% 0.1 350)", "oklch(82% 0.07 350)", "oklch(95% 0.025 350)"] },
+      "plum-lift": { "role": "primary", "displayName": "Lifted Plum", "canonical": "#9c4772", "tonalRamp": ["oklch(15% 0.06 350)", "oklch(26% 0.08 350)", "oklch(37% 0.1 350)", "oklch(46% 0.11 350)", "oklch(58% 0.11 350)", "oklch(70% 0.1 350)", "oklch(82% 0.07 350)", "oklch(95% 0.025 350)"] },
+      "plum-deep": { "role": "primary", "displayName": "Deep Plum", "canonical": "#5e2343", "tonalRamp": ["oklch(15% 0.06 350)", "oklch(26% 0.08 350)", "oklch(37% 0.1 350)", "oklch(46% 0.11 350)", "oklch(58% 0.11 350)", "oklch(70% 0.1 350)", "oklch(82% 0.07 350)", "oklch(95% 0.025 350)"] },
+      "plum-hi": { "role": "primary", "displayName": "Plum Highlight", "canonical": "#e2a6c4", "tonalRamp": ["oklch(15% 0.06 350)", "oklch(26% 0.08 350)", "oklch(37% 0.1 350)", "oklch(46% 0.11 350)", "oklch(58% 0.11 350)", "oklch(70% 0.1 350)", "oklch(82% 0.07 350)", "oklch(95% 0.025 350)"] },
+      "error": { "role": "neutral", "displayName": "Error Rose", "canonical": "#ffb3c1" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero first name only, white-to-plum gradient fill." },
+      "display-outline": { "displayName": "Display Outline", "purpose": "Marquee words and the hero surname, 1.5px bone stroke." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles and the reel's closing line; words rise on reveal." },
+      "statement": { "displayName": "Statement", "purpose": "About statement, lit word by word." },
+      "title": { "displayName": "Title", "purpose": "Role, course and project titles." },
+      "lede": { "displayName": "Lede", "purpose": "Section ledes, about lead, form input text." },
+      "body": { "displayName": "Body", "purpose": "Running copy and descriptions." },
+      "label": { "displayName": "Label", "purpose": "Dates, chips, metadata, readouts; tabular numerals." },
+      "micro": { "displayName": "Micro", "purpose": "Tags, hint corners, cursor label, repo meta, credit." }
+    },
+    "shadows": [
+      { "name": "keycap", "value": "inset 0 1px 0 rgb(255 255 255 / 0.09), inset 0 -2px 0 rgb(0 0 0 / 0.35), 0 5px 0 #09070a, 0 12px 18px -8px rgb(0 0 0 / 0.85)", "purpose": "Resting keycap side wall; keycaps only." },
+      { "name": "keycap-pressed", "value": "inset 0 1px 0 rgb(255 255 255 / 0.06), 0 1px 0 #09070a, 0 4px 8px -4px rgb(0 0 0 / 0.8)", "purpose": "Pressed keycap, with a 4px downward translate." },
+      { "name": "keycap-active", "value": "inset 0 1px 0 rgb(255 255 255 / 0.22), 0 5px 0 #3a1428, 0 14px 28px -8px rgb(155 81 110 / 0.75)", "purpose": "Keys of the selected skill group." },
+      { "name": "keyboard-deck", "value": "inset 0 1px 0 rgb(255 255 255 / 0.07), 0 50px 90px -40px rgb(0 0 0 / 0.95), 0 30px 120px -50px rgb(138 61 99 / 0.55)", "purpose": "The 3D keyboard deck." },
+      { "name": "laptop-screen", "value": "0 60px 100px -50px rgb(0 0 0 / 1), 0 40px 140px -60px rgb(138 61 99 / 0.6)", "purpose": "CSS laptop screen in the project reel." },
+      { "name": "laptop-base", "value": "0 30px 40px -24px rgb(0 0 0 / 0.95)", "purpose": "CSS laptop base." },
+      { "name": "hero-light", "value": "radial-gradient(closest-side, rgb(176 88 130 / 0.95), rgb(138 61 99 / 0.5) 38%, rgb(94 35 67 / 0.18) 70%, transparent 100%)", "purpose": "Plum light pool behind the portrait; scales with press-and-hold charge." },
+      { "name": "card-light", "value": "radial-gradient(28rem 14rem at 0% 0%, rgb(138 61 99 / 0.35), transparent 70%)", "purpose": "Timeline card hover light pool." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Shared ease for reveals, fills, tilts, cursor scale, sheet entry." },
+      { "name": "ease-in-out", "value": "cubic-bezier(0.65, 0, 0.35, 1)", "purpose": "Clip-path wipes: loader lift, mobile menu, sheet close." },
+      { "name": "title-rise", "value": "1000ms, 55ms per word, capped at 330ms", "purpose": "Section title words rise from a clipped line." },
+      { "name": "statement-light", "value": "500ms opacity 0.16 to 1, 28ms per word, capped at 900ms", "purpose": "About statement lights word by word." },
+      { "name": "reveal", "value": "opacity 900ms, translate 1100ms; 48px from below, 80px from the sides (32px under 760px), scale 0.94", "purpose": "Section and block entrances." },
+      { "name": "stagger", "value": "90ms per item, 36px rise", "purpose": "Grouped items entering together." },
+      { "name": "hero-entrance", "value": "letters 1200ms at 150ms + 60ms each; portrait 1400ms at 300ms; surname 700ms; tagline and corners 800ms; light 1600ms at 200ms", "purpose": "Hero lands after the loader lifts." },
+      { "name": "loader", "value": "count bar 1150ms; lift 900ms clip-path; auto-lift at 3s", "purpose": "Opening counter." },
+      { "name": "button-fill", "value": "480ms translateY(101%) to 0", "purpose": "Fill slides up through buttons on hover." },
+      { "name": "magnetic", "value": "22% x, 30% y of pointer offset", "purpose": "Section-level buttons pull toward the pointer." },
+      { "name": "cursor", "value": "ring lerp 0.16; scale 0.45 rest, 0.72 link, 1 label, 420ms", "purpose": "Dot plus lagging, scale-sized ring." },
+      { "name": "marquee", "value": "velocity lerp 0.12, skew capped at 12deg", "purpose": "Marquee speed and skew follow scroll velocity." },
+      { "name": "smooth-scroll", "value": "Lenis lerp 0.11", "purpose": "Smooth wheel scrolling; off under reduced motion." },
+      { "name": "hover-color", "value": "160 to 300ms ease", "purpose": "Colour, border and underline changes." }
+    ],
+    "breakpoints": [
+      { "name": "wide", "value": "1100px" },
+      { "name": "narrow", "value": "960px" },
+      { "name": "trail", "value": "820px" },
+      { "name": "phone", "value": "760px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Plum pill with a lifted-plum fill that slides up on hover; magnetic on section-level actions.",
+      "html": "<a class=\"ds-btn ds-btn--primary\" href=\"#\">See projects</a>",
+      "css": ".ds-btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; min-height: 3rem; padding: 0 1.5rem; border: 1px solid transparent; border-radius: 999px; font-family: var(--font, Archivo, system-ui, sans-serif); font-weight: 600; text-decoration: none; overflow: hidden; isolation: isolate; transition: border-color 220ms ease, color 220ms ease; } .ds-btn::before { content: \"\"; position: absolute; inset: 0; z-index: -1; border-radius: inherit; transform: translateY(101%); transition: transform 480ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn:hover::before { transform: translateY(0); } .ds-btn:focus-visible { outline: 2px solid var(--plum-hi, #e2a6c4); outline-offset: 3px; } .ds-btn--primary { background: var(--plum, #8a3d63); color: #fff; } .ds-btn--primary::before { background: var(--plum-lift, #9c4772); }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Hairline pill; a bone fill slides up and the text turns black on hover.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\">Contact me</a>",
+      "css": ".ds-btn-ghost { position: relative; display: inline-flex; align-items: center; justify-content: center; min-height: 3rem; padding: 0 1.5rem; border: 1px solid var(--rule-strong, rgb(243 238 242 / 0.26)); border-radius: 999px; color: var(--ink, #f3eef2); font-family: var(--font, Archivo, system-ui, sans-serif); font-weight: 600; text-decoration: none; overflow: hidden; isolation: isolate; transition: border-color 220ms ease, color 220ms ease; } .ds-btn-ghost::before { content: \"\"; position: absolute; inset: 0; z-index: -1; border-radius: inherit; background: var(--ink, #f3eef2); transform: translateY(101%); transition: transform 480ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-ghost:hover { color: var(--black, #000); border-color: var(--ink, #f3eef2); } .ds-btn-ghost:hover::before { transform: translateY(0); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--plum-hi, #e2a6c4); outline-offset: 3px; }"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Skill-group and contact-topic toggle; selected fills plum.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\" aria-pressed=\"true\">Frontend</button><button class=\"ds-chip\" aria-pressed=\"false\">Backend</button></div>",
+      "css": ".ds-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; } .ds-chip { padding: 0.55rem 1.1rem; border: 1px solid var(--rule-strong, rgb(243 238 242 / 0.26)); border-radius: 999px; background: transparent; color: var(--ink-2, #b3a9b1); font-family: var(--font, Archivo, system-ui, sans-serif); font-size: 0.875rem; cursor: pointer; transition: background-color 220ms ease, color 220ms ease, border-color 220ms ease; } .ds-chip:hover { border-color: var(--plum-hi, #e2a6c4); color: var(--ink, #f3eef2); } .ds-chip[aria-pressed=\"true\"] { background: var(--plum, #8a3d63); border-color: var(--plum, #8a3d63); color: #fff; } .ds-chip:focus-visible { outline: 2px solid var(--plum-hi, #e2a6c4); outline-offset: 3px; }"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Square underline field; underline turns plum-hi on focus.",
+      "html": "<label class=\"ds-field\"><span>Your name</span><input type=\"text\" placeholder=\"\"></label>",
+      "css": ".ds-field { display: grid; gap: 0.375rem; font-family: var(--font, Archivo, system-ui, sans-serif); } .ds-field span { color: var(--ink-2, #b3a9b1); font-size: 0.875rem; } .ds-field input { width: 100%; padding: 0.625rem 0; border: 0; border-bottom: 1px solid var(--rule-strong, rgb(243 238 242 / 0.26)); border-radius: 0; background: transparent; color: var(--ink, #f3eef2); font: inherit; font-size: 1.25rem; transition: border-color 220ms ease, box-shadow 220ms ease; } .ds-field input:focus { outline: none; border-bottom-color: var(--plum-hi, #e2a6c4); box-shadow: 0 1px 0 var(--plum-hi, #e2a6c4); }"
+    },
+    {
+      "name": "Nav Bar",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Plum monogram, expanded name, links that roll up to a plum-hi copy, résumé ghost pill.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-nav-brand\" href=\"#\"><span class=\"ds-nav-mark\">S</span>Ssruvi Rupani</a><nav class=\"ds-nav-menu\"><a href=\"#\"><span>About</span></a><a href=\"#\"><span>Skills</span></a><a href=\"#\"><span>Projects</span></a></nav></header>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 2rem; padding: 1rem 1.5rem; background: rgb(0 0 0 / 0.94); border-bottom: 1px solid var(--rule, rgb(243 238 242 / 0.12)); font-family: var(--font, Archivo, system-ui, sans-serif); color: var(--ink, #f3eef2); } .ds-nav-brand { display: inline-flex; align-items: center; gap: 0.625rem; color: inherit; font-weight: 700; font-variation-settings: \"wdth\" 112; text-decoration: none; } .ds-nav-mark { display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--plum, #8a3d63); color: #fff; font-weight: 800; transition: rotate 700ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-nav-brand:hover .ds-nav-mark { rotate: 360deg; } .ds-nav-menu { display: flex; gap: 1.75rem; margin-left: auto; } .ds-nav-menu a { display: inline-block; height: 1.5em; overflow: hidden; color: var(--ink-2, #b3a9b1); font-size: 0.9375rem; line-height: 1.5; text-decoration: none; } .ds-nav-menu a span { display: block; text-shadow: 0 1.5em 0 var(--plum-hi, #e2a6c4); transition: translate 500ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-nav-menu a:hover span { translate: 0 -1.5em; } .ds-nav a:focus-visible { outline: 2px solid var(--plum-hi, #e2a6c4); outline-offset: 3px; border-radius: 4px; }"
+    },
+    {
+      "name": "Timeline Card",
+      "kind": "card",
+      "refersTo": "card-timeline",
+      "description": "Experience card on the trail; plum light pool and border lift on hover, opens the detail sheet.",
+      "html": "<button class=\"ds-tcard\"><span class=\"ds-tdates\">Jun 2026 to now <span class=\"ds-now\">Now</span></span><span class=\"ds-trole\">SDE Intern</span><span class=\"ds-tco\">ZootechX</span><span class=\"ds-tcue\">Read more</span></button>",
+      "css": ".ds-tcard { position: relative; display: grid; gap: 0.5rem; width: 360px; padding: 1.75rem 1.75rem 1.5rem; border: 1px solid var(--rule, rgb(243 238 242 / 0.12)); border-radius: 20px; background: rgb(18 12 17 / 0.7); color: var(--ink, #f3eef2); font-family: var(--font, Archivo, system-ui, sans-serif); text-align: left; cursor: pointer; overflow: hidden; transition: border-color 300ms ease, translate 500ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-tcard::before { content: \"\"; position: absolute; inset: 0; background: radial-gradient(28rem 14rem at 0% 0%, rgb(138 61 99 / 0.35), transparent 70%); opacity: 0; transition: opacity 400ms ease; } .ds-tcard > * { position: relative; } .ds-tcard:hover { border-color: rgb(226 166 196 / 0.45); translate: 0 -4px; } .ds-tcard:hover::before { opacity: 1; } .ds-tcard:focus-visible { outline: 2px solid var(--plum-hi, #e2a6c4); outline-offset: 3px; } .ds-tdates { display: flex; align-items: center; gap: 0.625rem; color: var(--ink-2, #b3a9b1); font-size: 0.875rem; font-variant-numeric: tabular-nums; } .ds-now { padding: 0.1rem 0.55rem; border-radius: 999px; background: var(--plum, #8a3d63); color: #fff; font-size: 0.75rem; font-weight: 650; } .ds-trole { font-size: 1.75rem; font-weight: 750; font-variation-settings: \"wdth\" 112; line-height: 1.1; letter-spacing: -0.02em; } .ds-tco { font-weight: 600; } .ds-tcue { margin-top: 0.75rem; color: var(--plum-hi, #e2a6c4); font-size: 0.875rem; font-weight: 600; }"
+    },
+    {
+      "name": "Keycap",
+      "kind": "custom",
+      "refersTo": "keycap",
+      "description": "Physical keycap from the skills keyboard; presses down, lights plum when its group is active.",
+      "html": "<div class=\"ds-keys\"><button class=\"ds-key\"><span class=\"ds-cap\"><span class=\"ds-kl\">R</span><span class=\"ds-kn\">React</span></span></button><button class=\"ds-key\" data-active=\"true\"><span class=\"ds-cap\"><span class=\"ds-kl\">N</span><span class=\"ds-kn\">Node.js</span></span></button></div>",
+      "css": ".ds-keys { display: flex; gap: 10px; padding: 20px; border-radius: 22px; background: linear-gradient(180deg, #1c1519, #0d0a0c); font-family: var(--font, Archivo, system-ui, sans-serif); } .ds-key { width: 96px; height: 4.25rem; padding: 0; border: 0; background: none; cursor: pointer; } .ds-cap { display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; height: 100%; padding: 0.5rem 0.65rem 0.55rem; border-radius: 10px; background: linear-gradient(180deg, #2c2329, #1a1418); box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.09), inset 0 -2px 0 rgb(0 0 0 / 0.35), 0 5px 0 #09070a, 0 12px 18px -8px rgb(0 0 0 / 0.85); color: var(--ink, #f3eef2); transition: translate 120ms ease-out, box-shadow 120ms ease-out, background 260ms ease; } .ds-key:hover .ds-cap { background: linear-gradient(180deg, #3a2d35, #211a1f); translate: 0 -1px; } .ds-key:active .ds-cap { translate: 0 4px; box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.06), 0 1px 0 #09070a, 0 4px 8px -4px rgb(0 0 0 / 0.8); } .ds-key[data-active=\"true\"] .ds-cap { background: linear-gradient(180deg, #a44f7a, #6e2c4e); box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.22), 0 5px 0 #3a1428, 0 14px 28px -8px rgb(155 81 110 / 0.75); color: #fff; } .ds-key:focus-visible { outline: 2px solid var(--plum-hi, #e2a6c4); outline-offset: 3px; border-radius: 10px; } .ds-kl { color: var(--ink-3, #8a8089); font-size: 0.6875rem; font-weight: 600; } .ds-key[data-active=\"true\"] .ds-kl { color: rgb(255 255 255 / 0.7); } .ds-kn { font-size: 0.8125rem; font-weight: 650; }"
+    },
+    {
+      "name": "Laptop Frame",
+      "kind": "custom",
+      "refersTo": "device",
+      "description": "CSS laptop around a real project screenshot; tilts to the pointer, image zooms on hover.",
+      "html": "<a class=\"ds-device\" href=\"#\"><span class=\"ds-screen\"><span class=\"ds-bar\"><span></span><span></span><span></span><span class=\"ds-url\">velorajourneys.com</span></span><span class=\"ds-img\"></span><span class=\"ds-glare\"></span></span><span class=\"ds-base\"></span></a>",
+      "css": ".ds-device { display: block; width: 420px; text-decoration: none; font-family: var(--font, Archivo, system-ui, sans-serif); } .ds-screen { position: relative; display: block; padding: 10px 10px 12px; overflow: hidden; border: 1px solid rgb(255 255 255 / 0.1); border-radius: 18px 18px 6px 6px; background: #141013; box-shadow: 0 60px 100px -50px rgb(0 0 0 / 1), 0 40px 140px -60px rgb(138 61 99 / 0.6); } .ds-bar { display: flex; align-items: center; gap: 6px; height: 30px; padding: 0 12px; border-radius: 8px 8px 0 0; background: #1f191d; } .ds-bar > span:not(.ds-url) { width: 9px; height: 9px; border-radius: 50%; background: rgb(243 238 242 / 0.18); } .ds-url { flex: 1; max-width: 60%; margin-left: 12px; padding: 2px 10px; border-radius: 6px; background: rgb(0 0 0 / 0.4); color: var(--ink-3, #8a8089); font-size: 0.6875rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-img { display: block; aspect-ratio: 16 / 10; border-radius: 0 0 6px 6px; background: linear-gradient(160deg, #3a2d35, #120c11); transition: scale 900ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-device:hover .ds-img { scale: 1.035; } .ds-glare { position: absolute; inset: 0; background: linear-gradient(115deg, rgb(255 255 255 / 0.07) 0%, transparent 38%); pointer-events: none; } .ds-base { display: block; height: 14px; margin: 0 -5%; border-radius: 2px 2px 20px 20px; background: linear-gradient(180deg, #3a3237, #120e11); box-shadow: 0 30px 40px -24px rgb(0 0 0 / 0.95); } .ds-device:focus-visible { outline: 2px solid var(--plum-hi, #e2a6c4); outline-offset: 3px; border-radius: 18px; }"
+    },
+    {
+      "name": "Cursor Ring",
+      "kind": "custom",
+      "refersTo": "cursor",
+      "description": "84px ring sized by scale; rest, link and label states.",
+      "html": "<div class=\"ds-cursors\"><span class=\"ds-ring\"></span><span class=\"ds-ring\" data-state=\"link\"></span><span class=\"ds-ring\" data-state=\"label\"><span>View</span></span></div>",
+      "css": ".ds-cursors { display: flex; align-items: center; gap: 8px; padding: 12px; background: var(--black, #000); font-family: var(--font, Archivo, system-ui, sans-serif); } .ds-ring { display: grid; place-items: center; width: 84px; height: 84px; border: 2px solid rgb(243 238 242 / 0.45); border-radius: 50%; scale: 0.45; transition: scale 420ms cubic-bezier(0.16, 1, 0.3, 1), background-color 300ms ease, border-color 300ms ease; } .ds-ring[data-state=\"link\"] { scale: 0.72; border-color: var(--plum-hi, #e2a6c4); background: rgb(226 166 196 / 0.1); } .ds-ring[data-state=\"label\"] { scale: 1; border-color: transparent; background: var(--plum, #8a3d63); } .ds-ring span { color: #fff; font-size: 0.8125rem; font-weight: 650; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Plum Stage",
+    "overview": "The site is a stage lit in one colour. True black is the house, her plum is the light, and everything moves when the visitor does: the name lands, the portrait rises through it, shards drift behind, sections slide in, the trail draws itself, the project reel turns sideways. It is built on the structure of a reference portfolio (loader, huge-name hero, about, keyboard, trail, education, horizontal reel, GitHub, contact) and carries Ssruvi's facts and her colour, taken from the shirt in her portrait.\n\nDensity is generous and cinematic: full-bleed sections with a 90rem container, heavy expanded headings, wide gutters, and one interaction per section that proves something (press-and-hold burst, a playable keyboard, a scroll-drawn trail, tilting laptops). Depth is real where the object is real (keycaps, laptop frames, the shard field) and otherwise conveyed with plum light pools and hairlines on black.\n\nArchivo's width axis carries the hierarchy alone. Everything heavy is expanded; everything read is normal width. Motion is choreographed but always optional: every movement is removed under reduced motion and the page still reads complete.",
+    "keyCharacteristics": [
+      "True-black ground (#000) under a 7% film grain, with plum as the only chroma.",
+      "One variable family, Archivo, with the width axis as the display/body switch.",
+      "Pill buttons with a fill that slides up, magnetic pull, and a lagging cursor ring.",
+      "Physical depth only on physical objects: keycaps, laptop frames, the shard field.",
+      "Plum light pools (radial gradients) as atmosphere behind the hero, cards on hover, the sheet and the contact panel.",
+      "Every motion choreographed on one ease and fully off under reduced motion."
+    ],
+    "rules": [
+      { "name": "The One Hue Rule", "body": "Plum is the only chroma. Data colours (the GitHub language bar) are drawn from the plum ramp (#e2a6c4, #c47a9f, #9c4772, #6f3352), never from a second hue.", "section": "colors" },
+      { "name": "The Borrowed Plum Rule", "body": "The plum comes from the portrait's shirt. If the portrait changes, the accent is re-derived from it.", "section": "colors" },
+      { "name": "The Plum-Hi Is Line Rule", "body": "Shirt Plum fills areas behind white text; Plum Highlight draws lines, marks and small text on black. Do not swap them.", "section": "colors" },
+      { "name": "The Width Axis Rule", "body": "Hierarchy comes from Archivo's width and weight, never a second family. Heavy is always expanded; read text is always normal width.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Every date, count, score, phone number and progress readout uses tabular numerals.", "section": "typography" },
+      { "name": "The One Gradient Name Rule", "body": "The white-to-plum gradient fill belongs to the hero first name alone (pinned by the reference). No other text is gradient-filled.", "section": "typography" },
+      { "name": "The Real Object Rule", "body": "Cast shadows belong to objects that are physically deep (keycaps, keyboard, laptop). The keycap's solid 5px under-edge is a keyboard's own material and stays scoped to keycaps; flat UI never gets offset shadows.", "section": "elevation" },
+      { "name": "The Light Pool Rule", "body": "Plum radial light marks atmosphere and attention: behind the hero portrait (growing with press-and-hold charge), top-left of a timeline card on hover, under the cursor on education cards, in the sheet and contact panel corners. Never a uniform glow around a box.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep the ground true black (#000) with the grain overlay, and let plum enter as light pools, fills behind white text, or Plum Highlight lines.",
+      "Do use Archivo's width axis for hierarchy: expanded and 800 for name, headings and numerals; normal width for everything read.",
+      "Do run every movement on the shared ease (cubic-bezier(0.16, 1, 0.3, 1)), with cubic-bezier(0.65, 0, 0.35, 1) for clip-path wipes (loader, menu, sheet close).",
+      "Do follow the motion grammar: title words rise from a clipped line with a stagger capped at 330ms; the About statement lights word by word from 16% opacity; sections slide in from below (48px) or from the sides (80px, 32px on phones); grouped items stagger at 90ms.",
+      "Do give buttons the slide-up fill and section-level buttons the magnetic pull.",
+      "Do remove all motion under prefers-reduced-motion: no loader, no reveals, no reel pinning, no cursor loops, and leave content fully visible.",
+      "Do batch scroll work into one requestAnimationFrame per frame and read only scrollY against geometry cached on resize.",
+      "Do write scroll-driven values to the element that uses them (the progress bar, the reel bar, the hero layers), never to :root.",
+      "Do pre-render canvas sprites once per resize and draw them with drawImage; cap the canvas device pixel ratio at 1.5.",
+      "Do pause every continuous loop (shard field, marquee) when it is off-screen or the tab is hidden, and let event-driven loops (hero depth) stop once they settle.",
+      "Do show projects only inside the CSS laptop frame with a real screenshot of the shipped site.",
+      "Do use tabular numerals for every date, count and score."
+    ],
+    "donts": [
+      "Don't add a second hue; data and state colours come from the plum ramp.",
+      "Don't add a second typeface.",
+      "Don't gradient-fill any text other than the hero first name.",
+      "Don't write custom properties to :root (or any page-wide ancestor) on scroll; it restyles the whole page and caused real lag.",
+      "Don't call getBoundingClientRect inside scroll handlers or draw shard shapes and blur filters per frame.",
+      "Don't put cast shadows on flat UI; physical shadows are for keycaps, the keyboard deck and laptops only.",
+      "Don't lay projects out as a static card grid or skills as a chip wall; each section keeps one proving interaction.",
+      "Don't resize the cursor ring by width or height; size it by scale so nothing re-lays out."
+    ]
+  }
+}
